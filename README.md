@@ -7,7 +7,7 @@ PIM toolchain is suite of open-source tools designed for processing-in-memory ar
 
 The toolchain has three main tools, including an architecture synthesizer, a compiler, and a simulator. The synthesizer takes a neural network description (ONNX format) and design constraints as inputs, and generates an architecture instance based on a parameterized architecture template. Design space exploration is performed during the synthesis process to optimize the architecture. The compiler takes the neural network description and the architecture instance as inputs, and generates the instruction sequence together with optimized task mapping and scheduling. The instructions are based on a defined [instruction set architecture](https://arxiv.org/abs/2308.06449). The simulator takes the architecture and the instruction sequence as inputs, and performs a behavior-level simulation to get the results of latency, power, energy, etc.
 
-## Tools
+## Tools' Links
 
 [Compiler](https://github.com/sunxt99/PIMCOMP-NN)
 
