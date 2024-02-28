@@ -20,3 +20,18 @@
   author = {Xinyu Wang and Xiaotian Sun and Yinhe Han and Xiaoming Chen},
   year = {2024},
 }
+
+@article{todaes, 
+author = {Li, Wanqian and Han, Yinhe and Chen, Xiaoming},
+title = {{Mathematical Framework for Optimizing Crossbar Allocation for ReRAM-based CNN Accelerators}},
+year = {2023},
+volume = {29},
+number = {1},
+issn = {1084-4309},
+doi = {10.1145/3631523},
+journal = {ACM Trans. Des. Autom. Electron. Syst.},
+month = {dec},
+articleno = {21},
+numpages = {24},
+keywords = {crossbar allocation, mathematical framework, CNN accelerator, ReRAM crossbars}
+}
