@@ -15,11 +15,11 @@ The toolchain has three main tools, including an architecture synthesizer, a com
 
 ## Tools' Links
 
-[Compiler](https://github.com/sunxt99/PIMCOMP-NN)
+[Compiler (PIMCOMP-NN)](https://github.com/sunxt99/PIMCOMP-NN)
 
-[Architecture Synthesizer](https://github.com/lixixi-jook/PIMSYN-NN)
+[Architecture Synthesizer (PIMSYN-NN)](https://github.com/lixixi-jook/PIMSYN-NN)
 
-[Simulator](https://github.com/wangxy-2000/pimsim-nn)
+[Simulator (PIMSIM-NN)](https://github.com/wangxy-2000/pimsim-nn)
 
 
 ## Related Publications
