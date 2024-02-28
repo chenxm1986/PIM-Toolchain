@@ -11,7 +11,7 @@ The toolchain has three main tools, including an architecture synthesizer, a com
 
 + The **compiler (PIMCOMP-NN)** takes the neural network description and the architecture instance as inputs, and generates the instruction sequence together with optimized task mapping and scheduling. The instructions are based on a defined [instruction set architecture](https://arxiv.org/abs/2308.06449).
 
-+ The **simulator (PIMSIM-NN)** takes the architecture and the instruction sequence as inputs, and performs a behavior-level simulation to get the results of the NN's inference latency, power, energy, etc.
++ The **simulator (PIMSIM-NN)** takes the architecture and the instruction sequence as inputs, and performs a behavior-level simulation to get the NN inference performance results of the latency, power, energy, etc.
 
 ## Tools' Links
 
