@@ -3,7 +3,7 @@ EDA toolchain for processing-in-memory architectures, including an architecture 
 
 ## Introduction
 PIM toolchain is suite of open-source tools designed for processing-in-memory architectures for convolutional neural networks. The framework of the toolchain is
-[framework](toolchain.png)
+![framework](toolchain.png)
 
 ## Publications
 
