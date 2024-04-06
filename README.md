@@ -1,4 +1,4 @@
-# PIM-Toolchain
+# PIM EDA Suite
 Architecture-level EDA toolchain for processing-in-memory convolutional neural network accelerators.
 
 ## Introduction
