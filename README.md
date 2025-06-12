@@ -5,13 +5,15 @@ Architecture-level EDA toolchain for processing-in-memory convolutional neural n
 PIM toolchain is suite of open-source tools designed for processing-in-memory architectures running convolutional neural networks. The framework of the toolchain is shown below.
 ![framework](toolchain.png)
 
-The toolchain has three main tools, including an architecture synthesizer, a compiler, and a simulator.
+The toolchain has four main tools, including an architecture synthesizer, a compiler, and two simulators.
 
 + The **synthesizer (PIMSYN-NN)** takes a neural network description (ONNX format) and design constraints as inputs, and generates an architecture instance based on a parameterized architecture template. Design space exploration is performed during the synthesis process to optimize the architecture. 
 
 + The **compiler (PIMCOMP-NN)** takes the neural network description and the architecture instance as inputs, and generates the instruction sequence together with optimized task mapping and scheduling. The instructions are based on a defined [instruction set architecture](https://arxiv.org/abs/2308.06449).
 
 + The **simulator (PIMSIM-NN)** takes the architecture and the instruction sequence as inputs, and performs a behavior-level simulation to get the NN inference performance results of the latency, power, energy, etc.
+
++ The **simulator (PIMACC)** takes the architecture and the instruction sequence as inputs, and evaluates the inference accuracy under the impact of non-ideal factors of the hardware (such as quantization error, error of device resistance, IR-drop effects, etc.).
 
 ## Tools' Links
 
@@ -20,6 +22,8 @@ The toolchain has three main tools, including an architecture synthesizer, a com
 [Architecture Synthesizer (PIMSYN-NN)](https://github.com/lixixi-jook/PIMSYN-NN)
 
 [Simulator (PIMSIM-NN)](https://github.com/wangxy-2000/pimsim-nn)
+
+[Simulator (PIMACC)](https://github.com/HertzHan/PIMACC-simulator)
 
 
 ## Related Publications
